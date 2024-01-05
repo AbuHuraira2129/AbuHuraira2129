@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abuhuraira2129&label=Profile%20views&color=0e75b6&style=flat" alt="abuhuraira2129" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abuhuraira2129" alt="abuhuraira2129" /></a> </p>
-
 - 🔭 I’m currently working on **UI UX Design and React**
 
 - 🌱 I’m currently learning **React and Product Design**
