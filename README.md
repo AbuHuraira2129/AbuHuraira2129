@@ -11,9 +11,9 @@
 
 - 🎓 I'm currently doing **Software Engineering from NUML, Islamabad**
 
-- 👨‍💻 All of my Design projects are available at [https://www.behance.net/Designtive](https://www.behance.net/Designtive)
+- 👨‍💻 All of my Design projects are available at [https://designtive.co](Designtive.co)
 
-- 💬 Ask me about **UI UX Design, react, html, css, js, bootstrap, tailwind and WordPress**
+- 💬 Ask me about **UI UX Design, MERN, React, Node JS, Express JS, MongoDB, MySQL, html, css, js, bootstrap, tailwind and WordPress**
 
 - 📫 How to reach me **abuhuraira2129@gmail.com**
 
