@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Muhammad Abu Huraira</h1>
-<h3 align="center">A passionate UI UX Designer & frontend developer from Pakistan</h3>
+<h3 align="center">A passionate UI UX Designer & Junior MERN Stack developer from Pakistan</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abuhuraira2129&label=Profile%20views&color=0e75b6&style=flat" alt="abuhuraira2129" /> </p>
 
-- 🔭 I’m currently working on **UI UX Design and React**
+- 🔭 I’m currently working on **UI UX Design and MERN Stack Development**
 
-- 🌱 I’m currently learning **React and Product Design**
+- 🌱 I’m currently learning **Full MERN Stack Development**
 
-- 👯 I’m looking to collaborate on **any software design and frontend**
+- 👯 I’m looking to collaborate on **any Website/Mobile App design and Web frontend Projects**
 
 - 🎓 I'm currently doing **Software Engineering from NUML, Islamabad**
 
@@ -21,8 +21,8 @@
 <p align="left">
 <a href="https://linkedin.com/in/abuhuraira212" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abuhuraira212" height="30" width="40" /></a>
 <a href="https://fb.com/abuhuraira2129" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="abuhuraira2129" height="30" width="40" /></a>
-<a href="https://dribbble.com/designtive" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="designtive" height="30" width="40" /></a>
-<a href="https://www.behance.net/designtive" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="designtive" height="30" width="40" /></a>
+<a href="https://dribbble.com/abuhuraira2129" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="abuhuraira2129" height="30" width="40" /></a>
+<a href="https://www.behance.net/abuhuraira2129" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="abuhuraira2129" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
