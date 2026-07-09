@@ -1,0 +1,27 @@
+name: Voice analysis (monthly)
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch: {}
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: linkedin-content-system
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run analyze:voice
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_CONTENT_DATABASE_ID: ${{ secrets.NOTION_CONTENT_DATABASE_ID }}
+          NOTION_PROFILE_TASKS_DATABASE_ID: ${{ secrets.NOTION_PROFILE_TASKS_DATABASE_ID }}

@@ -1,0 +1,31 @@
+{
+  "name": "linkedin-content-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Analyze LinkedIn profile/activity, track positioning, generate on-brand drafts, and surface prospects — human approves and posts everything.",
+  "scripts": {
+    "import:export": "tsx src/capture/importExport.ts",
+    "analyze:voice": "tsx src/analysis/voiceAnalysis.ts",
+    "review:profile": "tsx src/analysis/profileReview.ts",
+    "generate": "tsx src/generation/generatePosts.ts",
+    "push:notion": "tsx src/generation/pushToNotion.ts",
+    "sync:notion": "tsx src/generation/syncNotionStatus.ts",
+    "score:prospects": "tsx src/prospects/scoreProspects.ts",
+    "draft:connection-note": "tsx src/prospects/draftConnectionNote.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@notionhq/client": "^2.2.15",
+    "@supabase/supabase-js": "^2.45.4",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
