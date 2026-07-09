@@ -7,7 +7,7 @@ See `supabase/migrations/0001_init.sql` for the source of truth. Summary:
 - **positioning_goals** — versioned, append-only. `status` is one of `active` (exactly one at a time, enforced by convention not a DB constraint), `suggested` (written by `analyze:voice`, needs your approval), `rejected`, `superseded`.
 - **voice_analyses** — output of `analyze:voice`: themes with evidence, tone notes, gaps, drift notes.
 - **profile_reviews** — output of `review:profile`: findings against the active goal + latest voice analysis.
-- **generated_content** — every draft (post or connection note), its approval status, and the Notion page it's mirrored to. `goal_fit_notes` is Claude's own honest check of whether the draft serves the stated goal.
+- **generated_content** — every draft (post or connection note), its approval status, and the Notion page it's mirrored to (`notion_page_id`) plus the Buffer post it's mirrored to once pushed there (`buffer_post_id`, added in `0002_add_buffer_post_id.sql`). `goal_fit_notes` is Claude's own honest check of whether the draft serves the stated goal.
 - **prospects** — identified → drafted → connected → replied, human-driven at every transition past `drafted`. `score`/`score_reason` come from `score:prospects` against `positioning_goals.icp`.
 
 ## Why no RLS

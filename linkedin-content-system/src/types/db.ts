@@ -83,6 +83,7 @@ export interface GeneratedContent {
   goal_id: string | null;
   goal_fit_notes: string | null;
   notion_page_id: string | null;
+  buffer_post_id: string | null;
   posted_at: string | null;
   performance: unknown;
 }
