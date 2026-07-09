@@ -1,15 +1,15 @@
 import { getNotion } from "./notionClient.js";
 
-/** Creates a simple task page (title + body paragraph) in a Notion database. */
+/** Creates a simple task page (title + body paragraph) in a Notion data source. */
 export async function createNotionTask(params: {
-  databaseId: string;
+  dataSourceId: string;
   title: string;
   body: string;
 }): Promise<string> {
   const notion = getNotion();
 
   const page = await notion.pages.create({
-    parent: { database_id: params.databaseId },
+    parent: { type: "data_source_id", data_source_id: params.dataSourceId },
     properties: {
       Name: {
         title: [{ text: { content: params.title.slice(0, 200) } }],

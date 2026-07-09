@@ -105,7 +105,7 @@ ${(comments ?? []).map((comment) => `- [${comment.posted_at ?? "undated"}] ${com
     console.log(`Suggested new positioning goal ${suggestedGoal.id} (status=suggested, not active).`);
 
     const notionTaskId = await createNotionTask({
-      databaseId: env.NOTION_PROFILE_TASKS_DATABASE_ID(),
+      dataSourceId: env.NOTION_PROFILE_TASKS_DATA_SOURCE_ID(),
       title: "Review suggested LinkedIn repositioning",
       body: [
         `Current goal: ${activeGoal?.goal_text ?? "none set"}`,

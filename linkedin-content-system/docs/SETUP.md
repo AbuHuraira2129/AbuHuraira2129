@@ -21,7 +21,7 @@ Create an API key at console.anthropic.com. All analysis/generation calls use `c
 2. Create two databases and share both with the integration:
    - **Approval queue** — properties: `Name` (title, default), `Status` (select: `Pending Review`, `Approved`, `Rejected`, `Posted`), `Type` (select: `Post`, `Connection Note`, `Profile Suggestion`), `Brief` (text), `Goal Fit Notes` (text), `Supabase ID` (text).
    - **Profile tasks** — properties: `Name` (title, default). Anything else is optional; findings go in the page body.
-3. Copy each database's ID from its URL into `NOTION_CONTENT_DATABASE_ID` / `NOTION_PROFILE_TASKS_DATABASE_ID`.
+3. Copy each database's **data source ID** (not the database/page ID — Notion databases can have multiple data sources, and page creation targets a data source) into `NOTION_CONTENT_DATA_SOURCE_ID` / `NOTION_PROFILE_TASKS_DATA_SOURCE_ID`. In the Notion UI this is exposed via the database's "..." menu → "Copy data source ID", or via the API's `GET /v1/databases/{id}` response (`data_sources[0].id`).
 
 ## 4. Local env
 

@@ -67,7 +67,7 @@ Tone notes: ${latestAnalysis?.tone_notes ?? "n/a"}`,
   }
 
   const notionTaskId = await createNotionTask({
-    databaseId: env.NOTION_PROFILE_TASKS_DATABASE_ID(),
+    dataSourceId: env.NOTION_PROFILE_TASKS_DATA_SOURCE_ID(),
     title: `LinkedIn profile review — ${result.findings.length} finding(s)`,
     body: result.findings
       .map((finding) => `${finding.field.toUpperCase()}\nIssue: ${finding.issue}\nSuggestion: ${finding.suggestion}`)

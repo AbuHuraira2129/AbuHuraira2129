@@ -11,7 +11,7 @@ const TYPE_LABEL: Record<GeneratedContent["type"], string> = {
 
 /**
  * Syncs generated_content rows that have no notion_page_id yet into the
- * Notion approval-queue database. Expects a database with these properties:
+ * Notion approval-queue data source. Expects a database with these properties:
  * Name (title), Status (select: Pending Review/Approved/Rejected/Posted),
  * Type (select), Brief (rich_text), Goal Fit Notes (rich_text),
  * Supabase ID (rich_text).
@@ -21,7 +21,7 @@ const TYPE_LABEL: Record<GeneratedContent["type"], string> = {
 async function main() {
   const supabase = getSupabase();
   const notion = getNotion();
-  const databaseId = env.NOTION_CONTENT_DATABASE_ID();
+  const dataSourceId = env.NOTION_CONTENT_DATA_SOURCE_ID();
 
   const { data: drafts, error } = await supabase
     .from("generated_content")
@@ -37,7 +37,7 @@ async function main() {
 
   for (const draft of drafts as GeneratedContent[]) {
     const page = await notion.pages.create({
-      parent: { database_id: databaseId },
+      parent: { type: "data_source_id", data_source_id: dataSourceId },
       properties: {
         Name: { title: [{ text: { content: draft.content.slice(0, 80) } }] },
         Status: { select: { name: "Pending Review" } },
