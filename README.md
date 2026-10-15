@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Muhammad Abu Huraira, AI Product Engineer. Business problem in. Working AI product out." width="100%" />
+  <img src="./banner.svg" alt="Muhammad Abu Huraira, AI Product Engineer. Business problem in. Working AI product out." width="100%" />
 </p>
 
 <p align="center">
