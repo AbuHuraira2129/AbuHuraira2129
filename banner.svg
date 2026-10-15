@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Muhammad Abu Huraira, AI Product Engineer. Business problem in. Working AI product out.">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#EEE9E0" fill-opacity="0.07"/>
+    </pattern>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+    </style>
+  </defs>
+  <rect width="1280" height="320" rx="14" fill="#121418"/>
+  <rect width="1280" height="320" rx="14" fill="url(#dots)"/>
+
+  <!-- left: identity -->
+  <rect x="64" y="58" width="8" height="8" fill="#FF6A3D"/>
+  <text x="82" y="66" class="mono" font-size="13" letter-spacing="1.2" fill="#9EA3AA">ISLAMABAD · REMOTE · UTC+5</text>
+
+  <text x="64" y="104" class="mono" font-size="14" font-weight="600" letter-spacing="2" fill="#FF6A3D">AI PRODUCT ENGINEER</text>
+  <text x="62" y="158" class="sans" font-size="46" font-weight="800" letter-spacing="-1.2" fill="#6E737B">Business problem in.</text>
+  <text x="62" y="208" class="sans" font-size="46" font-weight="800" letter-spacing="-1.2" fill="#F4F0E8">Working AI product out.</text>
+  <text x="64" y="244" class="sans" font-size="17" fill="#B9BDC3">User flows, UI, the agent and the app. One engineer, end to end.</text>
+
+  <!-- pipeline -->
+  <g class="mono" font-size="11" letter-spacing="0.8" fill="#9EA3AA">
+    <circle cx="68" cy="280" r="4" fill="none" stroke="#6E737B" stroke-width="1.5"/><text x="80" y="284">PROBLEM</text>
+    <line x1="140" y1="280" x2="172" y2="280" stroke="#3A3F47"/>
+    <circle cx="184" cy="280" r="4" fill="none" stroke="#8A8F97" stroke-width="1.5"/><text x="196" y="284">FLOW</text>
+    <line x1="236" y1="280" x2="268" y2="280" stroke="#3A3F47"/>
+    <circle cx="280" cy="280" r="4" fill="none" stroke="#A6ABB2" stroke-width="1.5"/><text x="292" y="284">UI</text>
+    <line x1="316" y1="280" x2="348" y2="280" stroke="#3A3F47"/>
+    <circle cx="360" cy="280" r="4" fill="none" stroke="#C9CDD2" stroke-width="1.5"/><text x="372" y="284">AGENT</text>
+    <line x1="420" y1="280" x2="452" y2="280" stroke="#3A3F47"/>
+    <circle cx="464" cy="280" r="4" fill="none" stroke="#C9CDD2" stroke-width="1.5"/><text x="476" y="284">HUMAN CHECK</text>
+    <line x1="568" y1="280" x2="600" y2="280" stroke="#FF6A3D" stroke-width="2"/>
+    <circle cx="614" cy="280" r="9" fill="#FF6A3D" fill-opacity="0.18"/>
+    <circle cx="614" cy="280" r="5" fill="#FF6A3D"/><text x="628" y="284" fill="#F4F0E8">LIVE</text>
+  </g>
+
+  <!-- right: terminal card -->
+  <rect x="800" y="56" width="416" height="208" rx="8" fill="#171A1F" stroke="#2C3038"/>
+  <circle cx="824" cy="80" r="5" fill="#3A3F47"/><circle cx="842" cy="80" r="5" fill="#3A3F47"/><circle cx="860" cy="80" r="5" fill="#3A3F47"/>
+  <text x="1192" y="84" text-anchor="end" class="mono" font-size="11" fill="#6E737B">recent-builds.log</text>
+  <line x1="800" y1="98" x2="1216" y2="98" stroke="#2C3038"/>
+  <g class="mono" font-size="13">
+    <text x="824" y="128" fill="#FF6A3D">01</text><text x="852" y="128" fill="#F4F0E8">WhatsApp sales agent + CRM</text>
+    <text x="824" y="158" fill="#FF6A3D">02</text><text x="852" y="158" fill="#F4F0E8">Voice agent that joins live calls</text>
+    <text x="824" y="188" fill="#FF6A3D">03</text><text x="852" y="188" fill="#F4F0E8">4-role ERP with approval flows</text>
+  </g>
+  <line x1="824" y1="208" x2="1192" y2="208" stroke="#2C3038"/>
+  <text x="824" y="236" class="mono" font-size="11.5" fill="#9EA3AA">Next.js · TypeScript · Supabase · Claude · MCP</text>
+</svg>
